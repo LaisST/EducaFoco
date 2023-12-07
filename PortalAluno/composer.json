@@ -1,0 +1,20 @@
+{
+    "require": {
+        "phpmailer/phpmailer": "^6.8"
+    },
+    "name": "wef/calendar",
+    "description": "Calendario Agenda de Eventos com PHP.",
+    "authors": [
+        {
+            "name": "Webdesign em Foco",
+            "email": "webdesignemfoco@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Classes\\": "../../class",
+            "Models\\": "../../model"
+        }
+    }
+}
